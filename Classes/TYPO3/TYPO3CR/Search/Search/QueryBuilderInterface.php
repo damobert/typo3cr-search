@@ -70,6 +70,19 @@ interface QueryBuilderInterface {
 	public function fulltext($searchWord);
 
 	/**
+	 *
+	 * @param string $searchWord
+	 * @return QueryBuilderInterface
+	 */
+	public function suggest($searchWord);
+
+	/**
+	 *
+	 * @return QueryBuilderInterface
+	 */
+	public function aggregate();
+
+	/**
 	 * Execute the query and return the list of nodes as result
 	 *
 	 * @return \Traversable<\TYPO3\TYPO3CR\Domain\Model\NodeInterface>

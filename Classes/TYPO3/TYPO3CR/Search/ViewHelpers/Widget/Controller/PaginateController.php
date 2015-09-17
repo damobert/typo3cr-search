@@ -27,7 +27,7 @@ class PaginateController extends AbstractWidgetController {
 	/**
 	 * @var array
 	 */
-	protected $configuration = array('itemsPerPage' => 10, 'insertAbove' => FALSE, 'insertBelow' => TRUE, 'maximumNumberOfLinks' => 99);
+	protected $configuration = array('itemsPerPage' => 30, 'insertAbove' => FALSE, 'insertBelow' => TRUE, 'maximumNumberOfLinks' => 99);
 
 	/**
 	 * @var integer
